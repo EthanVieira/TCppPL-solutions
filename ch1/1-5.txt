@@ -1,0 +1,22 @@
+From ChatGPT:
+
+Five Language Features of C++ (1985 Version)
+Classes and Objects – Introduced object-oriented programming (OOP) in C++, allowing data and functions to be encapsulated within objects for better modularity and code reuse.
+Constructors and Destructors – Enabled automatic initialization and cleanup of objects, improving resource management and reducing memory leaks.
+Function Overloading – Allowed multiple functions with the same name but different parameter lists, enabling more intuitive and flexible APIs.
+Operator Overloading – Provided the ability to redefine operators (e.g., +, -, *) for user-defined types, making custom data structures more natural to use.
+Inline Functions – Allowed small functions to be expanded in-place during compilation, reducing function call overhead and improving performance.
+
+Five Features Added in C++98
+Standard Template Library (STL) – Provided a collection of reusable data structures (vector, map, set) and algorithms, improving efficiency and reducing the need for custom implementations.
+Exception Handling (try, catch, throw) – Introduced a structured way to handle runtime errors, making programs more robust and maintainable.
+Namespaces – Helped avoid name conflicts by organizing code into logical scopes (namespace std), especially useful for large-scale projects.
+Boolean Data Type (bool) – Improved type safety by introducing true and false values, replacing int-based boolean logic.
+Mutable Keyword – Allowed modification of specific class members even inside const functions, providing more flexibility in object state management.
+
+Five Features Added in C++11
+Smart Pointers (unique_ptr, shared_ptr) – Improved memory management by preventing memory leaks and enabling automatic deallocation of dynamically allocated objects.
+Auto Type Deduction (auto) – Allowed automatic type inference, reducing code verbosity and improving readability.
+Lambda Expressions – Enabled inline anonymous functions, making functional programming and callbacks more concise and expressive.
+Move Semantics and rvalue References (&&) – Enhanced performance by allowing efficient resource transfers instead of deep copies, reducing unnecessary memory allocations.
+Multithreading Support (<thread>) – Provided built-in support for multithreading, simplifying parallel programming and improving CPU utilization.
