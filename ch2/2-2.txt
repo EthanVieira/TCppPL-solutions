@@ -1,0 +1,4 @@
+From ChatGPT:
+
+The compiler converts C++ code into machine-understandable object files.
+The linker assembles these object files into a final executable program by resolving dependencies.
