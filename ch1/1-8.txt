@@ -1,0 +1,56 @@
+From ChatGPT:
+
+1. Networking Library
+C++ lacks built-in networking support, requiring third-party libraries like Boost.Asio or POCO.
+A standard networking library would simplify writing TCP/IP, HTTP, and WebSocket applications.
+
+Desired Features:
+Sockets (TCP/UDP) support.
+Asynchronous I/O operations.
+HTTP client/server functionality.
+
+Workaround: Use Boost.Asio or third-party networking libraries.
+
+2. JSON/XML Parsing Library
+JSON/XML Parsing Library
+Many modern applications deal with structured data formats like JSON and XML, but C++ lacks native support.
+Developers currently rely on RapidJSON, nlohmann/json, or pugixml.
+
+Desired Features:
+Simple API for parsing, generating, and modifying JSON/XML.
+Type-safe access to nested values.
+
+Workaround: Use nlohmann/json or RapidJSON for JSON, and pugixml for XML.
+
+3. Reflection and Runtime Type Introspection
+Reflection allows programs to inspect and modify their own structure at runtime, useful for serialization, UI frameworks, and debugging.
+Languages like Java, C#, and Python have built-in reflection, while C++ does not.
+
+Desired Features:
+Class metadata access at runtime.
+Automatic serialization of objects.
+Ability to invoke methods dynamically.
+
+Workaround: Use RTTI (Run-Time Type Information) or libraries like Boost.TypeIndex or MetaStuff.
+
+4. Machine Learning & Linear Algebra Library
+C++ is widely used in scientific computing, AI, and game development, but lacks a standardized linear algebra and machine learning library.
+Libraries like Eigen, Armadillo, or Blaze are commonly used.
+
+Desired Features:
+Matrix and vector operations.
+Fast Fourier transforms, linear regression, and optimizations.
+GPU acceleration (optional).
+
+Workaround: Use Eigen, Blaze, or Armadillo for linear algebra computations.
+
+5. GUI (Graphical User Interface) Library
+C++ has no standard cross-platform GUI framework.
+Developers must use Qt, GTK, wxWidgets, or ImGui, each with different APIs and licensing restrictions.
+
+Desired Features:
+Cross-platform window management, buttons, and input handling.
+Support for 2D graphics and UI widgets.
+Event-driven programming.
+
+Workaround: Use Qt (powerful but heavy), ImGui (lightweight but not for traditional UIs), or SFML (for game-based UIs).
