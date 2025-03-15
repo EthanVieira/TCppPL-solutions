@@ -1,0 +1,6 @@
+Procedural
+Object Oriented
+Generic
+Functional
+Metaprogramming
+Concurrent
