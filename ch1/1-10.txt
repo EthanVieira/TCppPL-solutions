@@ -1,0 +1,28 @@
+From ChatGPT:
+
+1. Windows (Microsoft) – The core parts of Windows OS (NT Kernel, File System, Graphics Engine, etc.) are written in C++.
+2. macOS & iOS (Apple) – Many components of Apple's OS, including UI frameworks like Cocoa, use C++.
+3. Linux (Kernel & Desktop Environments) – While the Linux kernel is mostly C, many parts of the GNOME and KDE desktop environments are in C++.
+
+4. Google Chrome & Chromium – Uses C++ for the Blink rendering engine and performance-critical parts of the browser.
+5. Mozilla Firefox – The Gecko engine that renders web pages is written in C++.
+6. Safari (Apple) – Uses the WebKit engine, originally written in C++.
+7. Microsoft Edge – Uses Chromium, which is built with C++.
+
+8. Unreal Engine (Epic Games) – A top game engine powering games like Fortnite, PUBG, and Gears of War.
+9. Unity (Core Engine) – While Unity primarily uses C# for scripting, its core engine is written in C++.
+10. CryEngine (Crytek) – Used in games like Crysis and Far Cry, built with C++.
+11. Doom (id Tech Engine) – The id Tech engine (used in Doom, Quake) is written in C++.
+
+12. Bloomberg Terminal – A financial analytics platform used by stock traders, built with C++ for speed.
+13. Morgan Stanley & Goldman Sachs Trading Systems – High-frequency trading systems rely on C++ for low-latency execution.
+14. PayPal – Uses C++ in its backend for performance-critical services.
+
+15. Adobe Photoshop, Illustrator, and Premiere Pro – Core functionalities and rendering engines are built using C++.
+16. Autodesk Maya & 3ds Max – Industry-standard software for 3D modeling and animation, written in C++.
+
+17. Tesla Autopilot – The self-driving software stack relies heavily on C++ for real-time processing.
+18. SpaceX Falcon & Dragon Software – Uses C++ for real-time control of rockets and spacecraft.
+19. BMW & Mercedes Autonomous Systems – C++ is widely used in automotive control systems for self-driving cars.
+
+20. MySQL & PostgreSQL – Two of the most widely used relational database management systems (RDBMS), built with C++.
