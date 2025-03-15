@@ -1,0 +1,42 @@
+From ChatGPT:
+
+1. Follow the Single Responsibility Principle (SRP)
+Rule: Each class, function, or module should have only one reason to change.
+Why? Improves code readability, maintainability, and testability.
+
+2. Prefer Composition Over Inheritance
+Rule: Use composition (has-a relationship) rather than inheritance (is-a relationship) when possible.
+Why? Avoids tight coupling, deep inheritance hierarchies, and makes code more flexible.
+
+3. Use Smart Pointers Instead of Raw Pointers
+Rule: Avoid raw pointers (new/delete) and use smart pointers (std::unique_ptr, std::shared_ptr).
+Why? Prevents memory leaks, dangling pointers, and makes resource management automatic.
+
+4. Keep Functions Small and Focused
+Rule: Each function should do one thing and do it well.
+Why? Makes debugging easier, improves readability, and encourages code reuse.
+
+5. Use const Whenever Possible
+Rule: Use const for variables, function parameters, and member functions to protect against unintended modifications.
+Why? Improves code safety and clarity.
+
+6. Avoid Global Variables
+Rule: Minimize the use of global variables to reduce unexpected side effects.
+Why? Improves code modularity, testability, and prevents hidden dependencies.
+Alternative: Use dependency injection or singleton patterns when necessary.
+
+7. Write Self-Documenting Code
+Rule: Code should be readable without needing excessive comments.
+Why? Makes maintenance easier and reduces the need for documentation.
+
+8. Handle Errors Gracefully (Use Exceptions Wisely)
+Rule: Use exceptions (try/catch) for error handling but avoid using them for normal control flow.
+Why? Improves program stability and robustness.
+
+9. Optimize Only When Necessary
+Rule: First, write clear, correct code, then optimize if needed.
+Why? Premature optimization makes code harder to read, maintain, and debug.
+
+10. Write Unit Tests & Use Continuous Integration
+Rule: Write unit tests for critical components and use CI/CD (Continuous Integration/Deployment) to catch errors early.
+Why? Prevents regressions, ensures correctness, and improves maintainability.
