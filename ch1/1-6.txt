@@ -1,0 +1,27 @@
+From ChatGPT:
+
+Static (Compile-Time) Type Checking
+The compiler checks the type correctness before execution, ensuring that all variables, function calls, and expressions use the correct types.
+
+Strengths of Static Type Checking:
+✔ Early Error Detection – Bugs related to type mismatches are caught at compile-time, reducing runtime failures.
+✔ Performance Optimization – Since types are known beforehand, compilers can optimize code for better execution speed.
+✔ Better Code Maintainability – Enforces clear type definitions, making large codebases easier to understand and refactor.
+
+Weaknesses of Static Type Checking:
+✖ More Code Overhead – Requires explicit type declarations and casts, increasing verbosity.
+✖ Less Flexibility – Restricts dynamic behaviors, such as assigning different types to a variable at runtime.
+✖ Longer Compilation Time – Additional checks performed by the compiler can slow down the build process.
+
+Dynamic (Run-Time) Type Checking
+Type correctness is verified during execution, allowing variables to hold values of different types without explicit declarations.
+
+Strengths of Dynamic Type Checking:
+✔ Greater Flexibility – Variables can change types dynamically, allowing more expressive and adaptive code.
+✔ Faster Development – No need for explicit type declarations, reducing boilerplate and making scripting faster.
+✔ Easier Prototyping – Ideal for quick testing and iterative development.
+
+Weaknesses of Dynamic Type Checking:
+✖ Run-Time Errors – Type-related bugs are only caught during execution, potentially leading to crashes in production.
+✖ Performance Overhead – The interpreter must continuously check types at runtime, making execution slower compared to statically typed languages.
+✖ Harder to Debug – Errors might not be detected until a specific code path is executed, making debugging more difficult.
