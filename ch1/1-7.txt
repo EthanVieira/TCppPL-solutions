@@ -1,0 +1,54 @@
+From ChatGPT:
+
+1. Standard Template Library (STL)
+A powerful set of generic containers and algorithms for efficient data manipulation.
+Containers – Store collections of objects efficiently.
+Sequence Containers: vector, array, deque, list, forward_list
+Associative Containers: set, multiset, map, multimap
+Unordered Containers (hash-based): unordered_set, unordered_multiset, unordered_map, unordered_multimap
+Iterators – Provide a way to traverse containers (begin(), end()).
+Algorithms – Generic functions for sorting, searching, and modifying data (sort(), find(), copy(), transform()).
+Function Objects (Functors) – Enable function-like behavior with objects (std::greater<>, std::less<>).
+
+2. Input/Output (I/O) Library
+Handles console and file input/output operations.
+Stream-Based I/O:
+iostream – Base I/O library
+cin, cout, cerr, clog – Standard input, output, error, and logging
+File I/O:
+fstream – File input and output (ifstream, ofstream, fstream)
+String Streams:
+sstream – String-based I/O operations (ostringstream, istringstream)
+
+3. String Library
+Provides support for text processing.
+std::string – A dynamic string class that replaces C-style character arrays.
+std::wstring – Supports wide-character (Unicode) strings.
+Functions like substr(), find(), replace(), and append().
+
+4. Utility Library
+Contains helper functions and classes for common programming tasks.
+Smart Pointers: unique_ptr, shared_ptr, weak_ptr – Improve memory management and prevent memory leaks.
+Pair and Tuple: std::pair, std::tuple – Store multiple values in a single object.
+Type Traits: std::is_same, std::enable_if – Used in metaprogramming for type checks.
+Time Functions: std::chrono – Provides high-resolution timing and date utilities.
+
+5. Multithreading Library (C++11 and later)
+Provides tools for concurrent programming.
+Threads: std::thread – Create and manage threads.
+Mutex and Locks: std::mutex, std::lock_guard, std::unique_lock – Synchronization primitives.
+Atomic Operations: std::atomic – Enables lock-free programming.
+Futures and Promises: std::async, std::future, std::promise – Supports asynchronous execution.
+6. Numerical and Mathematical Library
+
+Provides mathematical functions and numerical algorithms.
+General Math: cmath (e.g., sqrt(), pow(), sin(), log()).
+Random Number Generation: random (e.g., std::mt19937, std::uniform_int_distribution).
+Complex Numbers: std::complex.
+Ratios and Fractions: std::ratio.
+Valarray: std::valarray – Optimized for numerical computations.
+
+7. Filesystem Library (C++17 and later)
+Provides utilities for file and directory manipulation.
+Path Handling: std::filesystem::path.
+File and Directory Management: std::filesystem::exists(), std::filesystem::create_directory(), std::filesystem::copy_file().
