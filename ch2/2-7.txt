@@ -1,0 +1,11 @@
+From ChatGPT:
+
+In C++, an invariant is a condition that is always expected to be true during the lifetime of an object or within a certain scope of a program. 
+It typically applies to class invariants, which are conditions that should hold before and after any public method is called.
+
+What Good Might an Invariant Do?
+Ensures Consistency – It helps maintain the validity of an object's state, preventing corruption.
+Simplifies Debugging – If an invariant is violated, it means something went wrong in the logic.
+Reduces Bugs – Enforcing invariants ensures that objects remain in a correct and predictable state.
+Improves Readability – Developers can assume that an object is always in a valid state when working with it.
+Enables Optimizations – Compilers or developers can make optimizations assuming that invariants hold.
